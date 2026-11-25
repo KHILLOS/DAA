@@ -1,0 +1,16 @@
+{
+  "depot": "Depot",
+  "capacity": 12,
+  "nodes": ["Depot", "A", "B", "C", "D", "E", "F"],
+  "roads": [["Depot","A",4],["Depot","B",9],["A","B",2],["A","C",5],["B","C",1],["B","D",6],["C","D",2],["D","E",3],["C","E",10]],
+  "parcels": [
+    {"id":"P01","stop":"A","weight":5,"priority":8,"deadline":"2026-11-26"},
+    {"id":"P02","stop":"B","weight":4,"priority":10,"deadline":"2026-11-25"},
+    {"id":"P03","stop":"C","weight":3,"priority":7,"deadline":"2026-11-26"},
+    {"id":"P04","stop":"D","weight":5,"priority":13,"deadline":"2026-11-27"},
+    {"id":"P05","stop":"E","weight":6,"priority":11,"deadline":"2026-11-25"},
+    {"id":"P06","stop":"F","weight":1,"priority":99,"deadline":"2026-11-25"},
+    {"id":"P07","stop":"E","weight":13,"priority":20,"deadline":"2026-11-28"},
+    {"id":"P08","stop":"B","weight":2,"priority":3,"deadline":"2026-11-26"}
+  ]
+}

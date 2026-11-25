@@ -1,0 +1,111 @@
+{
+  "ranked": [
+    "P06",
+    "P05",
+    "P02",
+    "P01",
+    "P03",
+    "P08",
+    "P04",
+    "P07"
+  ],
+  "selected": [
+    "P02",
+    "P03",
+    "P04"
+  ],
+  "deferred": {
+    "P06": "unreachable",
+    "P05": "not_selected",
+    "P01": "not_selected",
+    "P08": "not_selected",
+    "P07": "over_capacity"
+  },
+  "priority_total": 30,
+  "capacity": 12,
+  "loaded": 12,
+  "unused": 0,
+  "dp_final_row": [
+    0,
+    0,
+    3,
+    7,
+    10,
+    13,
+    13,
+    17,
+    20,
+    23,
+    23,
+    26,
+    30
+  ],
+  "delivery_order": [
+    "Depot",
+    "B",
+    "C",
+    "D",
+    "Depot"
+  ],
+  "deliveries": {
+    "B": [
+      "P02"
+    ],
+    "C": [
+      "P03"
+    ],
+    "D": [
+      "P04"
+    ]
+  },
+  "legs": [
+    {
+      "from": "Depot",
+      "to": "B",
+      "distance": 6,
+      "path": [
+        "Depot",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "distance": 1,
+      "path": [
+        "B",
+        "C"
+      ]
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "distance": 2,
+      "path": [
+        "C",
+        "D"
+      ]
+    },
+    {
+      "from": "D",
+      "to": "Depot",
+      "distance": 9,
+      "path": [
+        "D",
+        "C",
+        "B",
+        "A",
+        "Depot"
+      ]
+    }
+  ],
+  "distance": 18,
+  "runtime_ms": {
+    "sorting": 0.016896,
+    "reachability": 0.034204,
+    "knapsack": 0.031742,
+    "shortest_paths": 0.060338,
+    "nearest_neighbor": 0.027064
+  }
+}

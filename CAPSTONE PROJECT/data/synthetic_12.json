@@ -1,0 +1,498 @@
+{
+  "depot": "Depot",
+  "capacity": 36,
+  "nodes": [
+    "Depot",
+    "N001",
+    "N002",
+    "N003",
+    "N004",
+    "N005",
+    "N006",
+    "N007",
+    "N008",
+    "N009",
+    "N010",
+    "N011"
+  ],
+  "roads": [
+    [
+      "Depot",
+      "N001",
+      6
+    ],
+    [
+      "N001",
+      "N002",
+      2
+    ],
+    [
+      "N002",
+      "N003",
+      7
+    ],
+    [
+      "N003",
+      "N004",
+      7
+    ],
+    [
+      "N004",
+      "N005",
+      2
+    ],
+    [
+      "N005",
+      "N006",
+      2
+    ],
+    [
+      "N006",
+      "N007",
+      2
+    ],
+    [
+      "N007",
+      "N008",
+      4
+    ],
+    [
+      "N008",
+      "N009",
+      8
+    ],
+    [
+      "N009",
+      "N010",
+      2
+    ],
+    [
+      "N010",
+      "N011",
+      1
+    ],
+    [
+      "Depot",
+      "N003",
+      10
+    ],
+    [
+      "Depot",
+      "N004",
+      16
+    ],
+    [
+      "N001",
+      "N005",
+      17
+    ],
+    [
+      "N002",
+      "N004",
+      19
+    ],
+    [
+      "N003",
+      "N005",
+      6
+    ],
+    [
+      "N003",
+      "N007",
+      6
+    ],
+    [
+      "N004",
+      "N006",
+      9
+    ],
+    [
+      "N004",
+      "N008",
+      12
+    ],
+    [
+      "N005",
+      "N007",
+      2
+    ],
+    [
+      "N005",
+      "N008",
+      3
+    ],
+    [
+      "N005",
+      "N009",
+      10
+    ],
+    [
+      "N006",
+      "N008",
+      2
+    ],
+    [
+      "N007",
+      "N010",
+      5
+    ],
+    [
+      "N007",
+      "N011",
+      13
+    ],
+    [
+      "N008",
+      "N010",
+      20
+    ],
+    [
+      "N008",
+      "N011",
+      17
+    ],
+    [
+      "N009",
+      "N011",
+      15
+    ]
+  ],
+  "parcels": [
+    {
+      "id": "P0000",
+      "stop": "N007",
+      "weight": 9,
+      "priority": 27,
+      "deadline": "2026-12-24"
+    },
+    {
+      "id": "P0001",
+      "stop": "N011",
+      "weight": 25,
+      "priority": 14,
+      "deadline": "2026-12-11"
+    },
+    {
+      "id": "P0002",
+      "stop": "N007",
+      "weight": 1,
+      "priority": 11,
+      "deadline": "2026-12-28"
+    },
+    {
+      "id": "P0003",
+      "stop": "N001",
+      "weight": 21,
+      "priority": 26,
+      "deadline": "2026-12-12"
+    },
+    {
+      "id": "P0004",
+      "stop": "N002",
+      "weight": 16,
+      "priority": 37,
+      "deadline": "2026-12-20"
+    },
+    {
+      "id": "P0005",
+      "stop": "N010",
+      "weight": 5,
+      "priority": 29,
+      "deadline": "2026-12-18"
+    },
+    {
+      "id": "P0006",
+      "stop": "N004",
+      "weight": 19,
+      "priority": 2,
+      "deadline": "2026-12-25"
+    },
+    {
+      "id": "P0007",
+      "stop": "N002",
+      "weight": 9,
+      "priority": 37,
+      "deadline": "2026-12-16"
+    },
+    {
+      "id": "P0008",
+      "stop": "N011",
+      "weight": 3,
+      "priority": 30,
+      "deadline": "2026-12-26"
+    },
+    {
+      "id": "P0009",
+      "stop": "N010",
+      "weight": 9,
+      "priority": 29,
+      "deadline": "2026-12-25"
+    },
+    {
+      "id": "P0010",
+      "stop": "N009",
+      "weight": 20,
+      "priority": 15,
+      "deadline": "2026-12-16"
+    },
+    {
+      "id": "P0011",
+      "stop": "N011",
+      "weight": 14,
+      "priority": 2,
+      "deadline": "2026-12-16"
+    },
+    {
+      "id": "P0012",
+      "stop": "N009",
+      "weight": 12,
+      "priority": 14,
+      "deadline": "2026-12-02"
+    },
+    {
+      "id": "P0013",
+      "stop": "N002",
+      "weight": 21,
+      "priority": 23,
+      "deadline": "2026-12-26"
+    },
+    {
+      "id": "P0014",
+      "stop": "N011",
+      "weight": 7,
+      "priority": 7,
+      "deadline": "2026-12-17"
+    },
+    {
+      "id": "P0015",
+      "stop": "N007",
+      "weight": 2,
+      "priority": 26,
+      "deadline": "2026-12-10"
+    },
+    {
+      "id": "P0016",
+      "stop": "N005",
+      "weight": 25,
+      "priority": 9,
+      "deadline": "2026-12-12"
+    },
+    {
+      "id": "P0017",
+      "stop": "N001",
+      "weight": 20,
+      "priority": 30,
+      "deadline": "2026-12-15"
+    },
+    {
+      "id": "P0018",
+      "stop": "N004",
+      "weight": 21,
+      "priority": 33,
+      "deadline": "2026-12-08"
+    },
+    {
+      "id": "P0019",
+      "stop": "N010",
+      "weight": 16,
+      "priority": 15,
+      "deadline": "2026-12-06"
+    },
+    {
+      "id": "P0020",
+      "stop": "N004",
+      "weight": 8,
+      "priority": 22,
+      "deadline": "2026-12-10"
+    },
+    {
+      "id": "P0021",
+      "stop": "N010",
+      "weight": 11,
+      "priority": 25,
+      "deadline": "2026-12-26"
+    },
+    {
+      "id": "P0022",
+      "stop": "N003",
+      "weight": 9,
+      "priority": 2,
+      "deadline": "2026-12-17"
+    },
+    {
+      "id": "P0023",
+      "stop": "N009",
+      "weight": 23,
+      "priority": 2,
+      "deadline": "2026-12-28"
+    },
+    {
+      "id": "P0024",
+      "stop": "N001",
+      "weight": 24,
+      "priority": 11,
+      "deadline": "2026-12-13"
+    },
+    {
+      "id": "P0025",
+      "stop": "N002",
+      "weight": 2,
+      "priority": 8,
+      "deadline": "2026-12-15"
+    },
+    {
+      "id": "P0026",
+      "stop": "N008",
+      "weight": 13,
+      "priority": 19,
+      "deadline": "2026-12-08"
+    },
+    {
+      "id": "P0027",
+      "stop": "N008",
+      "weight": 20,
+      "priority": 27,
+      "deadline": "2026-12-21"
+    },
+    {
+      "id": "P0028",
+      "stop": "N008",
+      "weight": 14,
+      "priority": 1,
+      "deadline": "2026-12-12"
+    },
+    {
+      "id": "P0029",
+      "stop": "N010",
+      "weight": 23,
+      "priority": 10,
+      "deadline": "2026-12-10"
+    },
+    {
+      "id": "P0030",
+      "stop": "N008",
+      "weight": 24,
+      "priority": 32,
+      "deadline": "2026-12-18"
+    },
+    {
+      "id": "P0031",
+      "stop": "N005",
+      "weight": 20,
+      "priority": 6,
+      "deadline": "2026-12-08"
+    },
+    {
+      "id": "P0032",
+      "stop": "N001",
+      "weight": 24,
+      "priority": 19,
+      "deadline": "2026-12-06"
+    },
+    {
+      "id": "P0033",
+      "stop": "N009",
+      "weight": 1,
+      "priority": 24,
+      "deadline": "2026-12-24"
+    },
+    {
+      "id": "P0034",
+      "stop": "N008",
+      "weight": 6,
+      "priority": 35,
+      "deadline": "2026-12-09"
+    },
+    {
+      "id": "P0035",
+      "stop": "N009",
+      "weight": 21,
+      "priority": 34,
+      "deadline": "2026-12-14"
+    },
+    {
+      "id": "P0036",
+      "stop": "N005",
+      "weight": 17,
+      "priority": 15,
+      "deadline": "2026-12-06"
+    },
+    {
+      "id": "P0037",
+      "stop": "N009",
+      "weight": 21,
+      "priority": 27,
+      "deadline": "2026-12-25"
+    },
+    {
+      "id": "P0038",
+      "stop": "N002",
+      "weight": 25,
+      "priority": 20,
+      "deadline": "2026-12-12"
+    },
+    {
+      "id": "P0039",
+      "stop": "N008",
+      "weight": 4,
+      "priority": 16,
+      "deadline": "2026-12-27"
+    },
+    {
+      "id": "P0040",
+      "stop": "N007",
+      "weight": 6,
+      "priority": 5,
+      "deadline": "2026-12-16"
+    },
+    {
+      "id": "P0041",
+      "stop": "N001",
+      "weight": 22,
+      "priority": 10,
+      "deadline": "2026-12-07"
+    },
+    {
+      "id": "P0042",
+      "stop": "N002",
+      "weight": 20,
+      "priority": 25,
+      "deadline": "2026-12-18"
+    },
+    {
+      "id": "P0043",
+      "stop": "N005",
+      "weight": 10,
+      "priority": 7,
+      "deadline": "2026-12-13"
+    },
+    {
+      "id": "P0044",
+      "stop": "N011",
+      "weight": 19,
+      "priority": 4,
+      "deadline": "2026-12-10"
+    },
+    {
+      "id": "P0045",
+      "stop": "N001",
+      "weight": 14,
+      "priority": 40,
+      "deadline": "2026-12-15"
+    },
+    {
+      "id": "P0046",
+      "stop": "N004",
+      "weight": 9,
+      "priority": 35,
+      "deadline": "2026-12-22"
+    },
+    {
+      "id": "P0047",
+      "stop": "N005",
+      "weight": 17,
+      "priority": 9,
+      "deadline": "2026-12-01"
+    }
+  ]
+}

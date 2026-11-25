@@ -1,0 +1,13 @@
+Ranked parcels       P06, P05, P02, P01, P03, P08, P04, P07
+Selected parcels     P02, P03, P04
+Deferred             P06 (unreachable), P05 (not_selected), P01 (not_selected), P08 (not_selected), P07 (over_capacity)
+Capacity used        12 / 12 weight units
+Unused capacity      0 weight units
+Total priority       30
+Service order        Depot > B > C > D > Depot
+Round trip distance  18 distance units
+
+Depot to B   Depot > A > B   (6)
+B to C   B > C   (1)
+C to D   C > D   (2)
+D to Depot   D > C > B > A > Depot   (9)

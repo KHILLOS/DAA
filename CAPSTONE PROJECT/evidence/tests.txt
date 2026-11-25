@@ -1,0 +1,12 @@
+test_demo (test_courier.CourierTest.test_demo) ... ok
+test_distances_against_floyd_warshall (test_courier.CourierTest.test_distances_against_floyd_warshall) ... ok
+test_empty_and_unreachable_only (test_courier.CourierTest.test_empty_and_unreachable_only) ... ok
+test_equal_priority_tie (test_courier.CourierTest.test_equal_priority_tie) ... ok
+test_exhaustive_packing (test_courier.CourierTest.test_exhaustive_packing) ... ok
+test_malformed_input (test_courier.CourierTest.test_malformed_input) ... ok
+test_route_invariants (test_courier.CourierTest.test_route_invariants) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.101s
+
+OK
